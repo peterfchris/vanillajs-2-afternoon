@@ -172,8 +172,8 @@
         tone.currentTime = 0;
         pianoKey.classList.add('pressed');
         tone.play();
-        setTimeOut(function() {
-            pianoKey.classList.removal('pressed');
+        setTimeout(function() {
+            pianoKey.classList.remove('pressed');
         }, 300);
     });
 </script>
